@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 const cors = require("cors");
 const path = require("path");
 const app = express();
-const PORT = 5002;
+const PORT = 1001;
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
